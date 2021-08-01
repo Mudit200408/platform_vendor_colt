@@ -116,6 +116,8 @@ PRODUCT_COPY_FILES += \
    vendor/colt/prebuilt/common/etc/permissions/privapp-permissions-colt-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-colt.xml \
 
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/colt/config/device_framework_matrix.xml
+
 # Include AOSP audio files
 include vendor/colt/config/aosp_audio.mk
 
